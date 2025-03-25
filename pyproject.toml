@@ -1,0 +1,13 @@
+[project]
+name = "xmppshare"
+version = "0.1.0"
+description = "Xarebot can send and receive XMPP text and media from the cmdline"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "AGPL-3.0-or-later"
+dependencies = [
+    "aiohttp>=3.10.11",
+    "cryptography>=44.0.2",
+    "slixmpp>=1.8.6",
+    "slixmpp-omemo>=1.1.1",
+]
